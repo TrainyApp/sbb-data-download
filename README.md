@@ -5,7 +5,7 @@ from [opentransportdata.swiss](https://opentransportdata.swiss), which is useful
 
 ## Endpoint
 ```http request
-GET https://sbb-data-download.trainy.app/packages/:package_id/:file_name
+GET https://sbb-data-download.trainy.app/packages/:package_id/resources/:file_name
 ```
 
 Packages can be found on [opentransportdata.swiss](https://opentransportdata.swiss/).
