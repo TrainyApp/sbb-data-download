@@ -1,0 +1,12 @@
+[package]
+name = "opentransportdataswiss-downloader"
+version = "0.1.0"
+edition = "2021"
+authors = ["skloobi <michael@rittmeister.in>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+worker = { version = "0.7" }
+serde = { version = "1.0.228", features = ["derive"] }
