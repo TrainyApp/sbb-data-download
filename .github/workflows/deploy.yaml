@@ -13,6 +13,8 @@ jobs:
         with:
           run_install: true
       - uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          target: wasm32-unknown-unknown
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
